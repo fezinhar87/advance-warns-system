@@ -17,16 +17,6 @@
       "name": "Check Member Data"
     },
     {
-      "condition": "0",
-      "comparison": "0",
-      "value": "2",
-      "iftrue": "0",
-      "iftrueVal": "",
-      "iffalse": "2",
-      "iffalseVal": "",
-      "name": "Check Parameters"
-    },
-    {
       "info": "2",
       "infoIndex": "1",
       "storage": "1",
@@ -39,6 +29,17 @@
       "storage": "1",
       "varName": "warned",
       "name": "Store Command Params"
+    },
+    {
+      "storage": "1",
+      "varName": "warned",
+      "comparison": "0",
+      "value": "",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "27",
+      "name": "Check Variable"
     },
     {
       "member": "0",
