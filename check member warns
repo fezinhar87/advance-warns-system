@@ -1,3 +1,4 @@
+
 {
   "name": "warns",
   "permissions": "NONE",
@@ -11,7 +12,7 @@
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "2",
-      "iffalseVal": "10",
+      "iffalseVal": "12",
       "name": "Check Parameters"
     },
     {
@@ -21,7 +22,7 @@
       "comparison": "2",
       "value": "0",
       "iftrue": "2",
-      "iftrueVal": "7",
+      "iftrueVal": "8",
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Member Data"
