@@ -1,0 +1,162 @@
+{
+  "name": "warns",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "KYWPQ",
+  "actions": [
+    {
+      "condition": "1",
+      "comparison": "0",
+      "value": "1",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "10",
+      "name": "Check Parameters"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "dataName": "warns",
+      "comparison": "2",
+      "value": "0",
+      "iftrue": "2",
+      "iftrueVal": "7",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Member Data"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "dataName": "warns",
+      "defaultVal": "0",
+      "storage": "2",
+      "varName2": "warnedtimes",
+      "name": "Store Member Data"
+    },
+    {
+      "title": "warns",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "warnse",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "warnse",
+      "message": "the user: ` ${mentionedUser} ` ` was warned: ${serverVars(\"warnedtimes\")} `\nto clear is warns type ${server.tag}clearwarns ${mentionedUser}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "warnse",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "no warns yet",
+      "author": "",
+      "color": "",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "no warns yet",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "no warns yet",
+      "message": "this user have no warns yet",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "no warns yet",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "you didn't taged a user",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "user not mem",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "user not mem",
+      "message": "you did not mentioned a user please do the command with a member mentioned",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "user not mem",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
