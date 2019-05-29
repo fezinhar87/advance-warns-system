@@ -41,7 +41,7 @@
     {
       "storage": "1",
       "varName": "seted",
-      "message": "the channel that has been set for warns is ${serverVars(\"channel\")}",
+      "message": "the channel that has been set for the warns log is ${serverVars(\"channel\")}",
       "name": "Set Embed Description"
     },
     {
