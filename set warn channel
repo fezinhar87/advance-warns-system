@@ -17,6 +17,16 @@
       "name": "Store Command Params"
     },
     {
+      "condition": "2",
+      "comparison": "0",
+      "value": "1",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "8",
+      "name": "Check Parameters"
+    },
+    {
       "title": "the log channel has been set",
       "author": "",
       "color": "GREEN",
@@ -47,6 +57,48 @@
     {
       "storage": "1",
       "varName": "seted",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "no channel has been #",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "no channel",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "no channel",
+      "message": "You did not mentioned a channel please do the command again and mentioned a channel",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "no channel",
       "channel": "0",
       "varName2": "",
       "storage3": "0",
