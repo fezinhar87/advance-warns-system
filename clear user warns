@@ -1,0 +1,88 @@
+{
+  "name": "clearwarns",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "pgaVu",
+  "actions": [
+    {
+      "comment": "the command was created by tired#1379",
+      "color": "#00ffff",
+      "name": "Comment"
+    },
+    {
+      "condition": "1",
+      "comparison": "0",
+      "value": "1",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "6",
+      "name": "Check Parameters"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "dataName": "warns",
+      "changeType": "0",
+      "value": "0",
+      "name": "Control Member Data"
+    },
+    {
+      "title": "reset warns",
+      "author": "",
+      "color": "GREEN",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "reset",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "reset",
+      "message": "```\nthe warns for the user: ${mentionedUser} .\nis now = set to 0\n```",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "reset",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "time": "7",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "hey ${member} you did not mentioned a user please do the command and mention a user",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    }
+  ]
+}
