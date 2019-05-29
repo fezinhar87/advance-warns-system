@@ -11,10 +11,20 @@
       "comparison": "2",
       "value": "3",
       "iftrue": "2",
-      "iftrueVal": "23",
+      "iftrueVal": "24",
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Member Data"
+    },
+    {
+      "condition": "0",
+      "comparison": "0",
+      "value": "2",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "",
+      "name": "Check Parameters"
     },
     {
       "info": "2",
@@ -34,7 +44,7 @@
       "member": "0",
       "varName": "",
       "dataName": "warns",
-      "defaultVal": "0",
+      "defaultVal": "1",
       "storage": "2",
       "varName2": "warnedtimes",
       "name": "Store Member Data"
@@ -220,7 +230,7 @@
       "name": "Check Member Data"
     },
     {
-      "channel": "0",
+      "channel": "2",
       "varName": "",
       "message": "you have been banned from :${tempVars(\"servermem\")}\nbecause you have been warned 3 times",
       "storage": "0",
@@ -234,6 +244,48 @@
       "varName": "",
       "reason": "you ware warned 3 times ",
       "name": "Ban Member"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "error no reason",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "no reason",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "no reason",
+      "message": "${member}\nYou did not put a reason for the warning please do the command again with a reason this time",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "no reason",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
     }
   ]
 }
