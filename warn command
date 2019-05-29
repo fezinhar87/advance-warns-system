@@ -180,7 +180,7 @@
     {
       "storage": "1",
       "varName": "log warns embed",
-      "message": "warned user: ${tempVars(\"mem\")}\nreson: ${tempVars(\"warned\")}\nby admin: ${member}\nnumber of warnes ${mentionedUser} got is ${serverVars(\"warnedtimes\")}",
+      "message": "warned user: ${tempVars(\"mem\")}\nreson: ${tempVars(\"warned\")}\nwarned by the admin: ${member}\nnumber of warnes ${mentionedUser} have is ${serverVars(\"warnedtimes\")}",
       "name": "Set Embed Description"
     },
     {
@@ -222,7 +222,7 @@
     {
       "channel": "0",
       "varName": "",
-      "message": "you have been baned from :${tempVars(\"servermem\")}\nbeacuse you have been warned 3 times",
+      "message": "you have been banned from :${tempVars(\"servermem\")}\nbecause you have been warned 3 times",
       "storage": "0",
       "varName2": "",
       "iffalse": "0",
