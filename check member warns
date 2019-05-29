@@ -1,4 +1,3 @@
-
 {
   "name": "warns",
   "permissions": "NONE",
@@ -103,7 +102,7 @@
     {
       "storage": "1",
       "varName": "no warns yet",
-      "message": "this user have no warns yet",
+      "message": "this user has no warns yet",
       "name": "Set Embed Description"
     },
     {
