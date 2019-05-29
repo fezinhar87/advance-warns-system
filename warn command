@@ -1,0 +1,239 @@
+{
+  "name": "warn",
+  "permissions": "ADMINISTRATOR",
+  "restriction": "1",
+  "_id": "EFpzx",
+  "actions": [
+    {
+      "member": "0",
+      "varName": "",
+      "dataName": "warns",
+      "comparison": "2",
+      "value": "3",
+      "iftrue": "2",
+      "iftrueVal": "23",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Member Data"
+    },
+    {
+      "info": "2",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "mem",
+      "name": "Store Command Params"
+    },
+    {
+      "info": "1",
+      "infoIndex": "2",
+      "storage": "1",
+      "varName": "warned",
+      "name": "Store Command Params"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "dataName": "warns",
+      "defaultVal": "0",
+      "storage": "2",
+      "varName2": "warnedtimes",
+      "name": "Store Member Data"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "dataName": "warns",
+      "changeType": "1",
+      "value": "1",
+      "name": "Control Member Data"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "title": "you warned",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "warnedyou",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "warnedyou",
+      "message": "${member} you have warned ${mentionedUser}\n",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "warnedyou",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "1",
+      "varName3": "warnembedel",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "servermem",
+      "name": "Store Server Info"
+    },
+    {
+      "title": "you ware warnd ",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "you ware warned ",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "",
+      "message": "you have been warned by admin:${member}\nin the server : ${tempVars(\"servermem\")}\nyou have${serverVars(\"warnedtimes\")} atm\nafter 3 warns you will get ban!",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "you ware warned ",
+      "channel": "2",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "dataName": "warns log",
+      "defaultVal": "1",
+      "storage": "1",
+      "varName2": "logswarn",
+      "name": "Store Server Data"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "dataName": "warns log",
+      "changeType": "1",
+      "value": "1",
+      "name": "Control Server Data"
+    },
+    {
+      "title": "warn log#${tempVars(\"logswarn\")}",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "log warns embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "log warns embed",
+      "message": "warned user: ${tempVars(\"mem\")}\nreson: ${tempVars(\"warned\")}\nby admin: ${member}\nnumber of warnes ${mentionedUser} got is ${serverVars(\"warnedtimes\")}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "log warns embed",
+      "channel": "6",
+      "varName2": "channel",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "time": "4",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "warnembedel",
+      "name": "Delete Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "dataName": "warns",
+      "comparison": "2",
+      "value": "3",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "1",
+      "iffalseVal": "",
+      "name": "Check Member Data"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "you have been baned from :${tempVars(\"servermem\")}\nbeacuse you have been warned 3 times",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "reason": "you ware warned 3 times ",
+      "name": "Ban Member"
+    }
+  ]
+}
