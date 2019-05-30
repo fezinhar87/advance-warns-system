@@ -11,10 +11,21 @@
       "comparison": "2",
       "value": "3",
       "iftrue": "2",
-      "iftrueVal": "24",
+      "iftrueVal": "25",
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Member Data"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "info": "1",
+      "varName2": "",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "32",
+      "name": "Check If Member"
     },
     {
       "info": "2",
@@ -31,15 +42,14 @@
       "name": "Store Command Params"
     },
     {
-      "storage": "1",
-      "varName": "warned",
-      "comparison": "0",
-      "value": "",
+      "condition": "0",
+      "comparison": "2",
+      "value": "1",
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "2",
-      "iffalseVal": "27",
-      "name": "Check Variable"
+      "iffalseVal": "28",
+      "name": "Check Parameters"
     },
     {
       "member": "0",
@@ -134,7 +144,7 @@
     },
     {
       "storage": "1",
-      "varName": "",
+      "varName": "you ware warned ",
       "message": "you have been warned by admin:${member}\nin the server : ${tempVars(\"servermem\")}\nyou have${serverVars(\"warnedtimes\")} atm\nafter 3 warns you will get ban!",
       "name": "Set Embed Description"
     },
@@ -198,7 +208,7 @@
       "storage": "1",
       "varName": "log warns embed",
       "channel": "6",
-      "varName2": "channel",
+      "varName2": "warns cahnnel",
       "storage3": "0",
       "varName3": "",
       "iffalse": "0",
@@ -280,6 +290,48 @@
     {
       "storage": "1",
       "varName": "no reason",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "admin or above",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "ADMIN",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "ADMIN",
+      "message": "sorry but this user is an admin!",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "ADMIN",
       "channel": "0",
       "varName2": "",
       "storage3": "0",
