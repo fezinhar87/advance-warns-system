@@ -1,6 +1,6 @@
 {
   "name": "warns",
-  "permissions": "ADMINISTRATOR",
+  "permissions": "NONE",
   "restriction": "1",
   "_id": "KYWPQ",
   "actions": [
