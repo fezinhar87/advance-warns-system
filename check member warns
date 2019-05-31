@@ -60,7 +60,7 @@
     {
       "storage": "1",
       "varName": "warnse",
-      "message": "the user: ` ${mentionedUser} ` ` was warned: ${serverVars(\"warnedtimes\")} `\nto clear is warns type ${server.tag}clearwarns ${mentionedUser}",
+      "message": "the user: ` ${mentionedUser} ` ` was warned: ${serverVars(\"warnedtimes\")} `\nto clear is warns type [p]clearwarns ${mentionedUser}",
       "name": "Set Embed Description"
     },
     {
