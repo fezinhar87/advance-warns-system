@@ -7,6 +7,17 @@
     {
       "member": "0",
       "varName": "",
+      "info": "1",
+      "varName2": "",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "32",
+      "name": "Check If Member"
+    },
+    {
+      "member": "0",
+      "varName": "",
       "dataName": "warns",
       "comparison": "2",
       "value": "3",
@@ -15,17 +26,6 @@
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Member Data"
-    },
-    {
-      "member": "0",
-      "varName": "",
-      "info": "1",
-      "varName2": "",
-      "iftrue": "0",
-      "iftrueVal": "",
-      "iffalse": "2",
-      "iffalseVal": "32",
-      "name": "Check If Member"
     },
     {
       "info": "2",
