@@ -9,7 +9,7 @@
       "varName": "",
       "dataName": "warns",
       "comparison": "2",
-      "value": "2",
+      "value": "3",
       "iftrue": "2",
       "iftrueVal": "25",
       "iffalse": "0",
@@ -260,7 +260,7 @@
       "name": "End Action Sequence"
     },
     {
-      "title": "error no reason",
+      "title": "ERROR",
       "author": "",
       "color": "RED",
       "url": "",
@@ -302,7 +302,7 @@
       "name": "End Action Sequence"
     },
     {
-      "title": "admin or above",
+      "title": "ERROR",
       "author": "",
       "color": "RED",
       "url": "",
