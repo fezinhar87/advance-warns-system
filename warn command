@@ -9,7 +9,7 @@
       "varName": "",
       "dataName": "warns",
       "comparison": "2",
-      "value": "3",
+      "value": "2",
       "iftrue": "2",
       "iftrueVal": "25",
       "iffalse": "0",
@@ -145,7 +145,7 @@
     {
       "storage": "1",
       "varName": "you ware warned ",
-      "message": "you have been warned by admin:${member}\nin the server : ${tempVars(\"servermem\")}\nyou have${serverVars(\"warnedtimes\")} atm\nafter 3 warns you will get ban!",
+      "message": "you have been warned by admin:${member}\nin the server : ${tempVars(\"servermem\")}\nyou have ${serverVars(\"warnedtimes\")} warns atm\nafter 3 warns you will get ban!",
       "name": "Set Embed Description"
     },
     {
