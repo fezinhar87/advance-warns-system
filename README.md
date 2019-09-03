@@ -1,2 +1,3 @@
 # advanced-warns-system
-by tired#1379
+by tired
+Need latest mods!
