@@ -1,9 +1,16 @@
 {
   "name": "setup",
-  "permissions": "NONE",
+  "permissions": "KICK_MEMBERS",
   "restriction": "1",
   "_id": "RWTBd",
   "actions": [
+    {
+      "channelName": "warns",
+      "position": "3",
+      "storage": "1",
+      "varName": "warns",
+      "name": "Create Category Channel"
+    },
     {
       "category": "1",
       "varName": "warns",
@@ -11,13 +18,6 @@
       "storage": "1",
       "varName2": "cid",
       "name": "Store Category Info"
-    },
-    {
-      "channelName": "warns",
-      "position": "3",
-      "storage": "1",
-      "varName": "warns",
-      "name": "Create Category Channel"
     },
     {
       "channelName": "warns logs",
