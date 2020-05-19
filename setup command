@@ -5,8 +5,23 @@
   "_id": "RWTBd",
   "actions": [
     {
+      "category": "1",
+      "varName": "warns",
+      "info": "0",
+      "storage": "1",
+      "varName2": "cid",
+      "name": "Store Category Info"
+    },
+    {
+      "channelName": "warns",
+      "position": "3",
+      "storage": "1",
+      "varName": "warns",
+      "name": "Create Category Channel"
+    },
+    {
       "channelName": "warns logs",
-      "categoryID": "",
+      "categoryID": "${tempVars(\"cid\")}",
       "topic": "",
       "position": "",
       "storage": "2",
