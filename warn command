@@ -1,7 +1,7 @@
 {
   "name": "warn",
   "permissions": "ADMINISTRATOR",
-  "restriction": "1",
+  "restriction": "4",
   "_id": "EFpzx",
   "actions": [
     {
@@ -20,7 +20,7 @@
       "varName": "",
       "dataName": "warns",
       "comparison": "2",
-      "value": "3",
+      "value": "2",
       "iftrue": "2",
       "iftrueVal": "25",
       "iffalse": "0",
@@ -233,7 +233,7 @@
       "varName": "",
       "dataName": "warns",
       "comparison": "2",
-      "value": "3",
+      "value": "2",
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "1",
